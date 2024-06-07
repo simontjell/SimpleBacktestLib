@@ -6,7 +6,7 @@ using System.Text;
 
 
 // Download trading data (sample BTCUSD from binance)
-string dateFilename = "btcusd-sample.csv";
+string dataFilename = "btcusd-sample.csv";
 string sourceUrl = "https://notcoffee418-github-demo-data.s3.eu-central-1.amazonaws.com/btcusd-sample.zip";
 bool gotData = File.Exists(dateFilename);
 while (!gotData)
